@@ -1,4 +1,4 @@
-# AI Academic References - [![Research Papers](https://img.shields.io/badge/Total_Research_Papers-27-blue.svg)](https://shields.io/) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=27)](https://github.com/ellerbrock/open-source-badges/)
+# AI Academic References - [![Research Papers](https://img.shields.io/badge/Total_Research_Papers-50-blue.svg)](https://shields.io/) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=50)](https://github.com/ellerbrock/open-source-badges/)
 
 A list of links to academic references and research papers related to Artificial Intelligence and Large Language Models. From foundational architectures, to agentic reasoning, retrieval-augmented generation, instruction tuning, alignment, and prompt engineering. Papers marked ⭐️ are key / must-read references.
 
@@ -15,21 +15,36 @@ A list of links to academic references and research papers related to Artificial
 > * [Alignment & RLHF](#alignment--rlhf)
 > * [Retrieval-Augmented Generation](#retrieval-augmented-generation)
 > * [Prompt Engineering](#prompt-engineering)
+> * [Model Architectures & Efficiency](#model-architectures--efficiency)
+> * [Parameter-Efficient Fine-Tuning](#parameter-efficient-fine-tuning)
 
 
 ## Foundational Models & Architectures
 
 - [Vaswani A. et al. (2017), Attention Is All You Need,](https://arxiv.org/abs/1706.03762) --> **The paper that introduced the Transformer architecture, the foundation of virtually every modern LLM.**
+- [Devlin J. et al. (2018), BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,](https://arxiv.org/abs/1810.04805)
+- [Raffel C. et al. (2019), Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (T5),](https://arxiv.org/abs/1910.10683)
+- [Brown T. et al. (2020), Language Models are Few-Shot Learners (GPT-3),](https://arxiv.org/abs/2005.14165)
 - [Kaplan J. et al. (2020), Scaling Laws for Neural Language Models,](https://arxiv.org/abs/2001.08361)
+- [Hoffmann J. et al. (2022), Training Compute-Optimal Large Language Models (Chinchilla),](https://arxiv.org/abs/2203.15556)
+- [Chowdhery A. et al. (2022), PaLM: Scaling Language Modeling with Pathways,](https://arxiv.org/abs/2204.02311)
+- [Wei J. et al. (2022), Emergent Abilities of Large Language Models,](https://arxiv.org/abs/2206.07682)
+- [OpenAI (2023), GPT-4 Technical Report,](https://arxiv.org/abs/2303.08774)
 - ⭐️ [Touvron H. et al. (2023), LLaMA: Open and Efficient Foundation Language Models,](https://arxiv.org/abs/2302.13971)
+- [Touvron H. et al. (2023), Llama 2: Open Foundation and Fine-Tuned Chat Models,](https://arxiv.org/abs/2307.09288)
+- [Jiang A.Q. et al. (2023), Mistral 7B,](https://arxiv.org/abs/2310.06825)
 
 ## Agentic Reasoning
 
 - [Yao S. et al. (2022), ReAct: Synergizing Reasoning and Acting in Language Models,](https://arxiv.org/abs/2210.03629)
-- [Shinn N. et al. (2023), Reflexion: Language Agents with Verbal Reinforcement Learning,](https://arxiv.org/abs/2303.11366)
-- [Yao S. et al. (2023), Tree of Thoughts: Deliberate Problem Solving with Large Language Models,](https://arxiv.org/abs/2305.10601)
-- [Long J. (2023), Large Language Model Guided Tree-of-Thought,](https://arxiv.org/abs/2305.08291)
+- [Schick T. et al. (2023), Toolformer: Language Models Can Teach Themselves to Use Tools,](https://arxiv.org/abs/2302.04761)
 - [Paranjape B. et al. (2023), ART: Automatic Multi-step Reasoning and Tool-use for Large Language Models,](https://arxiv.org/abs/2303.09014)
+- [Shinn N. et al. (2023), Reflexion: Language Agents with Verbal Reinforcement Learning,](https://arxiv.org/abs/2303.11366)
+- [Park J.S. et al. (2023), Generative Agents: Interactive Simulacra of Human Behavior,](https://arxiv.org/abs/2304.03442)
+- [Long J. (2023), Large Language Model Guided Tree-of-Thought,](https://arxiv.org/abs/2305.08291)
+- [Yao S. et al. (2023), Tree of Thoughts: Deliberate Problem Solving with Large Language Models,](https://arxiv.org/abs/2305.10601)
+- [Wang G. et al. (2023), Voyager: An Open-Ended Embodied Agent with Large Language Models,](https://arxiv.org/abs/2305.16291)
+- [Qin Y. et al. (2023), ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs,](https://arxiv.org/abs/2307.16789)
 
 ## Instruction Tuning & Zero-Shot Learning
 
@@ -38,10 +53,15 @@ A list of links to academic references and research papers related to Artificial
 ## Alignment & RLHF
 
 - [Christiano P. et al. (2017), Deep Reinforcement Learning from Human Preferences,](https://arxiv.org/abs/1706.03741)
+- [Ouyang L. et al. (2022), Training Language Models to Follow Instructions with Human Feedback (InstructGPT),](https://arxiv.org/abs/2203.02155)
+- [Bai Y. et al. (2022), Constitutional AI: Harmlessness from AI Feedback,](https://arxiv.org/abs/2212.08073)
+- [Rafailov R. et al. (2023), Direct Preference Optimization: Your Language Model is Secretly a Reward Model,](https://arxiv.org/abs/2305.18290)
 
 ## Retrieval-Augmented Generation
 
+- [Karpukhin V. et al. (2020), Dense Passage Retrieval for Open-Domain Question Answering,](https://arxiv.org/abs/2004.04906)
 - ⭐️ [Lewis P. et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,](https://arxiv.org/pdf/2005.11401)
+- [Gao Y. et al. (2023), Retrieval-Augmented Generation for Large Language Models: A Survey,](https://arxiv.org/abs/2312.10997)
 
 ## Prompt Engineering
 
@@ -61,3 +81,14 @@ A list of links to academic references and research papers related to Artificial
 - [Yang C. et al. (2023), Large Language Models as Optimizers,](https://arxiv.org/abs/2309.03409)
 - [Sun H. et al. (2023), Query-Dependent Prompt Evaluation and Optimization with Offline Inverse RL,](https://arxiv.org/abs/2309.06553)
 - [Zhang Y. et al. (2023), Meta Prompting for AI Systems,](https://arxiv.org/abs/2311.11482)
+
+## Model Architectures & Efficiency
+
+- [Dao T. et al. (2022), FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness,](https://arxiv.org/abs/2205.14135)
+- [Gu A. & Dao T. (2023), Mamba: Linear-Time Sequence Modeling with Selective State Spaces,](https://arxiv.org/abs/2312.00752)
+- [Jiang A.Q. et al. (2024), Mixtral of Experts,](https://arxiv.org/abs/2401.04088)
+
+## Parameter-Efficient Fine-Tuning
+
+- [Hu E.J. et al. (2021), LoRA: Low-Rank Adaptation of Large Language Models,](https://arxiv.org/abs/2106.09685)
+- [Dettmers T. et al. (2023), QLoRA: Efficient Finetuning of Quantized LLMs,](https://arxiv.org/abs/2305.14314)
