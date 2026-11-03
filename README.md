@@ -2,7 +2,7 @@
 
 A list of links to academic references and research papers related to Artificial Intelligence and Large Language Models. From foundational architectures, to agentic reasoning, retrieval-augmented generation, instruction tuning, alignment, and prompt engineering. Papers marked ⭐️ are key / must-read references.
 
-![Cyborg Philosopher](cyborg-philosopher.jpg)
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/d1f48d09-e2f6-4247-a74e-6adaffe28fa8" />
 > Image credit: AI generated with OpenAI
 
 <br/>
